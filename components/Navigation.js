@@ -1,6 +1,7 @@
 import { Disclosure } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import Image from 'next/image';
+import Link from 'next/link';
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
 }
@@ -14,11 +15,13 @@ export default function Navigation({ navigation }) {
             <div className="relative h-16 flex justify-between">
               <div className="relative z-10 px-2 flex lg:px-0">
                 <div className="flex-shrink-0 flex items-center">
-                  <img
-                    className="block h-8 w-auto"
-                    src="logo.png"
-                    alt="Iconic Engineering"
-                  />
+                  <Link href="/">
+                    <img
+                      className="block h-8 w-auto cursor-pointer"
+                      src="logo.png"
+                      alt="Iconic Engineering"
+                    />
+                  </Link>
                 </div>
               </div>
 
