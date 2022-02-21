@@ -67,7 +67,7 @@ export default function Home() {
                     </ul>
                   </div>
                   <p className="mt-3 text-2xl text-gray-900 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-2xl md:max-w-5xl lg:mx-0">
-                    We are operated by well experienced engineering having vast
+                    We are operated by well experienced engineers having vast
                     experience in power generation and MEP Service including
                     HVAC.
                   </p>
